@@ -1,5 +1,5 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(135deg, #831818 0%, #0c3170 100%);
     padding: 20px;
     text-align: center;
     color: white;
@@ -18,7 +18,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #a12f2f;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
@@ -61,4 +61,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+.img{
+    position: relative;
 }
